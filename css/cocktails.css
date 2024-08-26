@@ -1,0 +1,591 @@
+/* =================================================================================================
+Main Title
+================================================================================================== */
+.cocktails-title {
+   margin-bottom: 6rem;
+
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+
+   .main-title {
+      display: flex;
+      flex-direction: column;
+      width: calc(50% - 50px);
+   }
+
+   .main-title-image {
+      display: flex;
+      flex-direction: column;
+      width: calc(50% - 50px);
+
+      img {
+         width: 100%;
+         border-radius: 20px;
+      }
+   }
+}
+
+/* Media Queries - Main Title */
+@media only screen and (max-width: 1024px) {
+   .cocktails-title {
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 50px;
+
+      .main-title {
+         width: 100%;
+      }
+
+      .main-title-image {
+         width: 100%;
+      }
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .cocktails-title {
+      margin-bottom: 4rem;
+   }
+}
+
+/* =================================================================================================
+Drinks Search
+================================================================================================== */
+.search {
+   margin-bottom: 1rem;
+
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+}
+
+.search-by-name,
+.search-by-category {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+.search-by-category {
+   h2 {
+      text-align: center;
+   }
+}
+
+.search-title {
+   padding-bottom: 3rem;
+}
+
+.search-bar {
+   gap: 1rem;
+   width: 100%;
+
+   display: grid;
+   grid-template-columns: 9fr 3fr;
+
+   input {
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--input-bg);
+      border-radius: 1.5rem;
+      border: 1px solid var(--input-bg);
+      padding: 0.8rem 1rem;
+      outline: none;
+      width: 100%;
+      line-height: 1.5;
+      color: var(--input-text);
+      transition: var(--default-transition);
+      &:focus {
+         border-color: var(--input-border-focus);
+      }
+      &:hover {
+         background-color: var(--input-bg-hover);
+      }
+   }
+
+   input::placeholder {
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      color: var(--input-placeholder);
+      transition: var(--default-transition);
+   }
+
+   button.search {
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      color: var(--btn-text);
+      line-height: 1.5;
+      font-weight: 500;
+      background-color: var(--primary);
+      border: var(--btn-primary-border);
+      border-radius: var(--default-border-radius);
+      padding: 0.8rem 1rem;
+      width: 100%;
+      white-space: nowrap;
+      cursor: pointer;
+      justify-content: center;
+      transition: var(--default-transition);
+      &:hover {
+         background-color: var(--page-bg);
+      }
+   }
+}
+
+.category-buttons {
+   cursor: pointer;
+   width: auto;
+
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+
+   button {
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      color: var(--btn-text);
+      line-height: 1.5;
+      background-color: var(--page-bg);
+      border: 2px solid var(--primary);
+      border-radius: var(--default-border-radius);
+      padding: 0.8rem 1rem;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: var(--default-transition);
+      &:hover {
+         background-color: var(--primary);
+         border: 2px solid var(--primary);
+         color: white;
+      }
+   }
+}
+
+.error-message {
+   font-size: 1rem;
+   padding: 1rem;
+   color: var(--title);
+}
+
+/* Media Queries - Drink Search */
+@media only screen and (max-width: 768px) {
+   .search {
+      flex-direction: column;
+      gap: 30px;
+   }
+
+   .search-by-name,
+   .search-by-category {
+      width: 100%;
+      align-items: center;
+   }
+
+   .search-title {
+      h2 {
+         text-align: center;
+      }
+   }
+}
+
+/* =================================================================================================
+List of searched Cocktails
+================================================================================================== */
+.search-cocktails-wrapper {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   flex-wrap: wrap;
+   &::after {
+      content: '';
+      flex: auto;
+   }
+
+   .cocktail {
+      align-items: center;
+      width: calc(20% - 20px);
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .cocktail-image {
+         cursor: pointer;
+
+         img {
+            border-radius: 20px;
+         }
+      }
+
+      .cocktail-name {
+         h3 {
+            color: var(--title);
+            font-size: 1.2rem;
+            text-align: center;
+         }
+      }
+   }
+}
+
+/* Media Queries - List of searched cockatils */
+@media only screen and (max-width: 1024px) {
+   .search-cocktails-wrapper {
+      .cocktail {
+         width: calc(25% - 20px);
+      }
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .search-cocktails-wrapper {
+      .cocktail {
+         width: calc(33% - 20px);
+      }
+   }
+}
+
+@media only screen and (max-width: 640px) {
+   .search-cocktails-wrapper {
+      .cocktail {
+         width: calc(50% - 20px);
+      }
+   }
+}
+
+/* =================================================================================================
+Popular Cocktails
+================================================================================================== */
+.popular-cocktails {
+   margin-top: 6rem;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.popular-cocktails .cocktails-title {
+   margin-bottom: 3rem;
+}
+
+.popular-cocktails-wrapper {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   flex-wrap: wrap;
+
+   .cocktail {
+      align-items: center;
+      width: calc(20% - 20px);
+      cursor: pointer;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+
+      .cocktail-image {
+         img {
+            border-radius: 20px;
+         }
+      }
+
+      .cocktail-name {
+         h3 {
+            color: var(--title);
+            font-size: 1.2rem;
+            font-weight: 500;
+         }
+      }
+   }
+}
+
+/* Media Queries - popular Cocktails */
+@media only screen and (max-width: 1024px) {
+   .popular-cocktails {
+      margin-top: 5rem;
+
+      .cocktail {
+         width: calc(33.33% - 20px);
+      }
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .popular-cocktails {
+      margin-top: 4rem;
+
+      .cocktail {
+         width: calc(50% - 20px);
+      }
+   }
+}
+
+/* =================================================================================================
+Modal
+================================================================================================== */
+#background {
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 50;
+   width: 100vw;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.blur {
+   filter: blur(1px);
+}
+
+#modal {
+   width: 90vw;
+   padding: 2rem;
+   inset: 50% auto auto 50%;
+   transform: translate(-50%, -50%);
+   max-width: 968px;
+   height: auto;
+   background-color: var(--modal-bg);
+   border-radius: 1rem;
+   box-shadow: 0 8px 32px rgba(18, 44, 52, 0.1);
+   z-index: 100;
+
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+
+   .close {
+      align-self: flex-end;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      border-radius: 50%;
+      color: var(--modal-title);
+      background-color: var(--modal-tag-bg);
+      cursor: pointer;
+   }
+
+   .modal-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+
+      .modal-image {
+         width: 40%;
+
+         display: flex;
+         flex-direction: column;
+         gap: 1.5rem;
+
+         h3 {
+            color: var(--modal-title);
+         }
+
+         img {
+            border-top-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+         }
+
+         .modal-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+
+            .tag {
+               color: var(--modal-text);
+               background-color: var(--modal-tag-bg);
+               border-radius: 0.2rem;
+               padding: 0.3rem 0.5rem;
+               font-size: 0.8rem;
+               font-weight: 500;
+               text-transform: uppercase;
+
+               display: flex;
+            }
+         }
+      }
+
+      .modal-infos {
+         width: 60%;
+
+         display: flex;
+         flex-direction: column;
+         gap: 3rem;
+
+         .modal-ingredients {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1.5rem;
+
+            h4 {
+               color: var(--modal-title);
+               font-size: 1.5rem;
+               font-family: 'Acme', sans-serif;
+               font-weight: 400;
+            }
+
+            .ingredients {
+               display: flex;
+               gap: 2rem;
+               flex-wrap: wrap;
+               row-gap: 1rem; /* Espace entre les rangées */
+
+               .ingredient {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  max-width: 140px;
+
+                  img {
+                     border-radius: 50%;
+                     width: 80px;
+                     height: 80px;
+                     /* padding: 0.5rem;
+                     border: 1px solid var(--modal-tag-bg); */
+                  }
+
+                  .ing-name {
+                     font-size: 1rem;
+                     font-weight: 300;
+                     color: var(--modal-text);
+                     text-align: center;
+                     padding-top: 0.5rem;
+                  }
+               }
+            }
+         }
+
+         .modal-instructions {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1.5rem;
+
+            h4 {
+               color: var(--modal-title);
+               font-size: 1.5rem;
+               font-family: 'Acme', sans-serif;
+               font-weight: 400;
+            }
+
+            .instructions {
+               p {
+                  font-size: 1rem;
+                  font-family: 'Poppins', sans-serif;
+                  color: var(--modal-text);
+               }
+            }
+         }
+      }
+   }
+}
+
+/* Media Queries - Modal */
+@media only screen and (max-width: 1024px) {
+   #modal {
+      .modal-content {
+         gap: 1.5rem;
+
+         .modal-infos {
+            gap: 2rem;
+
+            .modal-ingredients {
+               .ingredients {
+                  gap: 1rem;
+                  .ingredient {
+                     max-width: 90px;
+
+                     img {
+                        width: 70px;
+                        height: 70px;
+                     }
+
+                     .ing-name {
+                        font-size: 1.05rem;
+                     }
+                  }
+               }
+            }
+            .modal-instructions {
+               gap: 1rem;
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   #modal {
+      .modal-content {
+         .modal-image {
+            width: 45%;
+         }
+         .modal-infos {
+            width: 55%;
+
+            .modal-ingredients {
+               .ingredients {
+                  .ingredient {
+                     max-width: 80px;
+
+                     img {
+                        width: 60px;
+                        height: 60px;
+                     }
+
+                     .ing-name {
+                        font-size: 1rem;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 640px) {
+   #modal {
+      max-height: 90%;
+      overflow-y: auto;
+
+      .modal-content {
+         flex-direction: column;
+
+         .modal-image {
+            width: 100%;
+
+            img {
+               border-top-right-radius: 1rem;
+               border-bottom-right-radius: 0;
+            }
+
+            .modal-tags {
+               display: none;
+            }
+         }
+
+         .modal-infos {
+            width: 100%;
+
+            .modal-ingredients {
+               .ingredients {
+                  .ingredient {
+                     max-width: 65px;
+
+                     img {
+                        width: 50px;
+                        height: 50px;
+                     }
+
+                     .ing-name {
+                        font-size: 0.9rem;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
