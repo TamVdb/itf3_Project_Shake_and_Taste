@@ -335,6 +335,7 @@ Modal
 
 .blur {
    filter: blur(1px);
+   overflow: hidden;
 }
 
 #modal {
