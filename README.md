@@ -1,16 +1,16 @@
-# GreenFood
-Food box recipe page built in HTML, CSS and JavaScript
+# Shake & Taste
+...
 
 
-It was a small project designed to showcase my technical and web design skills during a training module.
+...
 
 
 ## Project timeline and technologies used
 
-Build a small project in 1 week to continue the training and to showcase the following:
+Build a project in two weeks to work with an API and to showcase the following:
 * My technical skills in JS
 * My web design skills
-* My motivation
+* The use of design tools (Photoshop and Illustrator)
 
 ### Technologies Used
 
@@ -24,16 +24,23 @@ Build a small project in 1 week to continue the training and to showcase the fol
 
 ## Visuals
 
-![Imgur](https://tinyurl.com/mr2wwe5e)
-![Imgur](https://tinyurl.com/mryp9r8s)
-![Imgur](https://tinyurl.com/4exmfbdc)
-![Imgur](https://tinyurl.com/yc4tze6v)
-![Imgur](https://www.zestcitron.be/wp-content/uploads/2024/04/nav-close.jpg)
-![Imgur](https://www.zestcitron.be/wp-content/uploads/2024/04/nav-open.jpg)
+![Imgur](https://tinyurl.com/mr2jc6a9)
+![Imgur](https://tinyurl.com/eynrsw4c)
+![Imgur](https://tinyurl.com/4hker7fj)
+![Imgur](https://tinyurl.com/467weyj4)
+![Imgur](https://tinyurl.com/bpstjhzz)
+![Imgur](https://tinyurl.com/529b7ceh)
+![Imgur](https://tinyurl.com/2ve2p2ya)
+![Imgur](https://tinyurl.com/y4bhch3x)
+![Imgur](https://tinyurl.com/bdfksn95)
+![Imgur](https://tinyurl.com/4tkjm5u5)
+![Imgur](https://tinyurl.com/44jxxde4)
+![Imgur](https://tinyurl.com/yc3mmwa8)
+
 
 
 ## Images
 
-Ingredients images are from <a href="https://www.vecteezy.com/" target="_blank">Vecteezy</a>
+The ingredients and cocktails images on the cocktails HTML page come from  <a href="https://www.thecocktaildb.com/api.php" target="_blank">CocktailDB API</a>
 
-Recipes images by user14908974 from <a href="https://www.freepik.com" target="_blank">Freepik.com</a>
+Cocktails images on index page come from <a href="https://www.freepik.com" target="_blank">Freepik.com</a>
