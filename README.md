@@ -1,8 +1,12 @@
 # Shake & Taste
-...
+Use of a free cocktail API (TheCocktailDB.com) to retrieve and display data.
 
 
-...
+Dark/Light mode in JavaScript that matches with the OS preferences
+In the “Lab” page, I wanted to test the idea of creating your own cocktail with the addition of certain ingredients. Each time an ingredient is clicked, a dose of that ingredient is added to the glass. 
+Ingredients can be removed separately, and it's also possible to empty the glass all at once.
+When the “shake” button is clicked, the glass shakes to produce the desired cocktail. I would have liked to match the color of the produced cocktail to that of the ingredients mixed, but for lack of time, I simply used another color. 
+Logo creation with Illustrator and Photoshop.
 
 
 ## Project timeline and technologies used
@@ -30,22 +34,34 @@ Dark mode
 Light mode
 ![Imgur](https://tinyurl.com/eynrsw4c)
 
-Search cocktail by name
+Cocktails page
 ![Imgur](https://tinyurl.com/4hker7fj)
 
-Modal with instructions and ingredients with a blur effect on main page
+Search cocktail by name
 ![Imgur](https://tinyurl.com/467weyj4)
 
-Search cocktail by category
+Modal with instructions and ingredients with a blur effect on main page
 ![Imgur](https://tinyurl.com/bpstjhzz)
 
-Modal with instructions and ingredients with a blur effect on main page
+Search cocktail by category
 ![Imgur](https://tinyurl.com/529b7ceh)
+
+Modal with instructions and ingredients with a blur effect on main page
 ![Imgur](https://tinyurl.com/2ve2p2ya)
+
+Custom lab : make your own cocktail
 ![Imgur](https://tinyurl.com/y4bhch3x)
+
+Custom lab : add some ingredients
 ![Imgur](https://tinyurl.com/bdfksn95)
+
+Custom lab : shake
 ![Imgur](https://tinyurl.com/4tkjm5u5)
+
+Contact Page
 ![Imgur](https://tinyurl.com/44jxxde4)
+
+Form verification in JavaScript with adapted message
 ![Imgur](https://tinyurl.com/yc3mmwa8)
 
 
