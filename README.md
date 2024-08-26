@@ -24,11 +24,22 @@ Build a project in two weeks to work with an API and to showcase the following:
 
 ## Visuals
 
+Dark mode
 ![Imgur](https://tinyurl.com/mr2jc6a9)
+
+Light mode
 ![Imgur](https://tinyurl.com/eynrsw4c)
+
+Search cocktail by name
 ![Imgur](https://tinyurl.com/4hker7fj)
+
+Modal with instructions and ingredients with a blur effect on main page
 ![Imgur](https://tinyurl.com/467weyj4)
+
+Search cocktail by category
 ![Imgur](https://tinyurl.com/bpstjhzz)
+
+Modal with instructions and ingredients with a blur effect on main page
 ![Imgur](https://tinyurl.com/529b7ceh)
 ![Imgur](https://tinyurl.com/2ve2p2ya)
 ![Imgur](https://tinyurl.com/y4bhch3x)
