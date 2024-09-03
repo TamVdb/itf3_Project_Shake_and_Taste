@@ -2,10 +2,14 @@
 Use of a free cocktail API (TheCocktailDB.com) to retrieve and display data.
 
 
-Dark/Light mode in JavaScript that matches with the OS preferences
-In the “Lab” page, I wanted to test the idea of creating your own cocktail with the addition of certain ingredients. Each time an ingredient is clicked, a dose of that ingredient is added to the glass. 
-Ingredients can be removed separately, and it's also possible to empty the glass all at once.
+Dark/Light mode in JavaScript that matches with the OS preferences.
+
+Search your favorite drink by name/by category and look for ingredients and instructions.
+
+The “Lab” page tests the idea of creating your own cocktail with the addition of certain ingredients. Each time an ingredient is clicked, a dose of that ingredient is added to the glass. 
+Ingredients can be removed separately, and it's also possible to empty the glass all at once. 
 When the “shake” button is clicked, the glass shakes to produce the desired cocktail. I would have liked to match the color of the produced cocktail to that of the ingredients mixed, but for lack of time, I simply used another color. 
+
 Logo creation with Illustrator and Photoshop.
 
 
