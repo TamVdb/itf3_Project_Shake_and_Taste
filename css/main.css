@@ -467,7 +467,7 @@ header {
          flex-direction: column;
          justify-content: center;
          align-items: flex-end;
-         flex: 0;
+         width:76px;
          order: 3;
       }
    }
