@@ -1,4 +1,4 @@
-# Shake & Taste
+# Shake & Taste 🍸
 Use of a free cocktail API (TheCocktailDB.com) to retrieve and display data.
 
 
@@ -12,8 +12,8 @@ When the “shake” button is clicked, the glass shakes to produce the desired 
 
 Logo creation with Illustrator and Photoshop.
 
-
-## Project timeline and technologies used
+&nbsp;
+## 🛠️ Project timeline and technologies used
 
 Build a project in two weeks to work with an API and to showcase the following:
 * My technical skills in JS
@@ -29,8 +29,8 @@ Build a project in two weeks to work with an API and to showcase the following:
 * GitHub
 * VS Code
 
-
-## Visuals
+&nbsp;
+## 👀 Visuals
 
 Dark mode
 ![Imgur](https://tinyurl.com/mr2jc6a9)
